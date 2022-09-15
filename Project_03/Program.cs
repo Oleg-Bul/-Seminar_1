@@ -15,7 +15,7 @@ while (attempt > 0)
     else if(user_number < secret_number)
     {
         Console.WriteLine("Секретное число больше");
-        attempt--;
+        attempt--;// attempt = attempt-1
     }
     else if(user_number == secret_number)// = присвоить == сравнить
     {
